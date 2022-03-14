@@ -26,6 +26,8 @@
 
 .content {
     display: grid;
+    grid-gap: 10px;
+    background-color: white;
     grid-template-columns: repeat(2,1fr) ;
     grid-template-rows: repeat(3,1fr);
     grid-area: ct;  
@@ -49,14 +51,4 @@
   
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.subcard1{
-    flex: 1;
-    background-image: url("../img/overreacting.jpeg");
-    object-fit: cover;
-}
-
-.subcard{
-    flex:2;
 }
