@@ -38,8 +38,11 @@
 }
 
 .card {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    /*grid-template-columns: 1fr 2fr;*/
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
 }
@@ -49,7 +52,12 @@
 }
 
 .subcard1{
+    flex: 1;
     background-image: url("../img/overreacting.jpeg");
-    background-size: contain;
-    background-repeat: no-repeat;
+    /*object-fit: none*/;
+    object-position: 5px 10%;
+}
+
+.subcard{
+    flex:2;
 }
