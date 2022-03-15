@@ -1,3 +1,6 @@
+@import "font.css";
+@import "background.css";
+
 .container{
     display: grid;
     height: 90vh;
@@ -6,7 +9,6 @@
     grid-template-columns: repeat(12,1fr) ;
     grid-template-rows: 75px auto 75px;
     border: 5px solid black;
-    background-color: lightblue;
     grid-template-areas:
     "hd hd hd hd hd hd hd hd hd hd hd hd"
     "ct ct ct ct ct ct ct ct ct ct sb sb"
