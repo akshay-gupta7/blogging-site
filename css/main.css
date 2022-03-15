@@ -1,10 +1,11 @@
 @import "font.css";
 @import "background.css";
+@import "body.css";
 
 .container{
     display: grid;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     grid-gap: 1px;
     text-align: center;
     grid-template-columns: repeat(12,1fr) ;
