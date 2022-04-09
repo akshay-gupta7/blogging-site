@@ -1,8 +1,4 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import "font.css";
 
 body{
   font-family: 'Open Sans', sans-serif;
@@ -11,6 +7,34 @@ body{
 .container{
   display: flex;
   border: 1px solid royalblue;
-  align-items: center;
-  justify-content: center;
+  /*align-items: center;
+  justify-content: center;*/
+  flex-direction: column;
+}
+
+.Header{
+  flex: 1;
+  order:1;
+  font-weight: bold;
+  font-size: xx-large;
+  border: 1px solid red;
+}
+
+.Author{
+  display: flex;
+  flex: 1;
+  order: 2;
+  border: 1px solid red;
+}
+
+.Content{
+  flex:1;
+  order: 3;
+  border: 1px solid red;
+}
+
+.Footer{
+  flex: 1;
+  order: 4;
+  border: 1px solid red;
 }
