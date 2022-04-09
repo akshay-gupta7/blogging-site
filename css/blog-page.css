@@ -6,10 +6,15 @@ body{
 
 .container{
   display: flex;
-  border: 1px solid royalblue;
-  /*align-items: center;
+  /*border: 1px solid royalblue;
+  align-items: center;
   justify-content: center;*/
   flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.container >div{
+  margin: 6px;
 }
 
 .Header{
@@ -17,50 +22,50 @@ body{
   order:1;
   font-weight: bold;
   font-size: xx-large;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 .Author{
   display: flex;
   flex: 1;
   order: 2;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 .author_name{
   flex: 1;
   order: 1;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
 }
 
 .author_title{
   flex: 1;
   order: 2;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
 }
 
 .author_company{
   flex: 1;
   order: 3;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
 }
 
 .author_bio{
   flex: 1;
   order: 4;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
 }
 
 .author_avatar{
   flex: 1;
   order: 5;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
 }
 
 .Content{
   flex:1;
   order: 3;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -68,27 +73,27 @@ body{
   display: flex;
   flex: 1;
   order: 4;
-  border: 1px solid red;  
+  /*border: 1px solid red;*/  
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .twitter{
   flex: 1;
   order: 1;
-  border: 1px solid yellow;
+  /*border: 1px solid yellow;*/
   text-align: center;
 }
 
 .facebook{
   flex: 1;
   order: 2;
-  border: 1px solid yellow;
+  /*border: 1px solid yellow;*/
   text-align: center;
 }
 
 .linkedin{
   flex: 1;
   order: 3;
-  border: 1px solid yellow;
+  /*border: 1px solid yellow;*/
   text-align: center;
 }
