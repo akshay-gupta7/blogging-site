@@ -60,6 +60,7 @@ body{
   flex: 1;
   order: 5;
   /*border: 1px solid green;*/
+  text-align: center;
 }
 
 .Content{
