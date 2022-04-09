@@ -61,10 +61,30 @@ body{
   flex:1;
   order: 3;
   border: 1px solid red;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .Footer{
+  display: flex;
   flex: 1;
   order: 4;
   border: 1px solid red;
+}
+
+.twitter{
+  flex: 1;
+  order: 1;
+  border: 1px solid yellow;
+}
+
+.facebook{
+  flex: 1;
+  order: 2;
+  border: 1px solid yellow;
+}
+
+.linkedin{
+  flex: 1;
+  order: 3;
+  border: 1px solid yellow;
 }
