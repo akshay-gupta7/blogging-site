@@ -27,6 +27,36 @@ body{
   border: 1px solid red;
 }
 
+.author_name{
+  flex: 1;
+  order: 1;
+  border: 1px solid green;
+}
+
+.author_title{
+  flex: 1;
+  order: 2;
+  border: 1px solid green;
+}
+
+.author_company{
+  flex: 1;
+  order: 3;
+  border: 1px solid green;
+}
+
+.author_bio{
+  flex: 1;
+  order: 4;
+  border: 1px solid green;
+}
+
+.author_avatar{
+  flex: 1;
+  order: 5;
+  border: 1px solid green;
+}
+
 .Content{
   flex:1;
   order: 3;
