@@ -29,6 +29,7 @@ body{
   display: flex;
   flex: 1;
   order: 2;
+  flex-direction: row;
   /*border: 1px solid red;*/
 }
 
@@ -59,8 +60,9 @@ body{
 .author_avatar{
   flex: 1;
   order: 5;
-  /*border: 1px solid green;*/
-  text-align: center;
+  /*border: 1px solid green;
+  text-align: center;*/
+  align-items: center;
 }
 
 img{
@@ -78,6 +80,7 @@ img{
   display: flex;
   flex: 1;
   order: 4;
+  flex-direction: row;
   /*border: 1px solid red;*/  
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -101,4 +104,37 @@ img{
   order: 3;
   /*border: 1px solid yellow;*/
   text-align: center;
+}
+
+.backtohome{
+  flex: 1;
+  order: 4;
+  /*border: 1px solid yellow;*/
+  text-align: center;
+}
+
+@media(max-width: 600px){
+  .Author{
+    display: flex;
+    flex: 1;
+    order: 2;
+    flex-direction: column;
+    /*border: 1px solid red;*/
+  }
+  .author_avatar{
+    flex: 1;
+    order: 5;
+    /*border: 1px solid green;
+    text-align: center;*/
+    align-items: left;
+  }
+  .Footer{
+    display: flex;
+    flex: 1;
+    order: 4;
+    flex-direction: column;
+    /*border: 1px solid red;*/  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }  
+
 }
