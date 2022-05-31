@@ -90,7 +90,7 @@ h1{
   .content {
       display: grid;
       grid-gap: 10px;
-      background-color: white;
+      background-color: rgb(221, 64, 64);
       grid-template-columns: auto ;
       grid-template-rows: auto;
       grid-template-columns:repeat(3,1fr) ;
