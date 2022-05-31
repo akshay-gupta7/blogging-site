@@ -14,14 +14,14 @@ body{
 }
 
 .container >div{
-  margin: 6px;
+  margin: 6.5px;
 }
 
 .Header{
   flex: 1;
   order:1;
   font-weight: bold;
-  font-size: xx-large;
+  font-size: x-large;
   /*border: 1px solid red;*/
 }
 
